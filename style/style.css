@@ -1,0 +1,92 @@
+/* ზოგადი სტილი */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #003399; /* ლურჯი ფონი */
+    color: white;
+}
+
+/* მთავარი კონტეინერი */
+.main-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* მარცხენა სექცია */
+.left-section {
+    width: 45%;
+}
+
+.left-section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.left-section p {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+
+.map img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact-info div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1.1em;
+}
+
+/* მარჯვენა სექცია */
+.right-section {
+    width: 45%;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.right-section label {
+    font-size: 1em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.right-section input,
+.right-section textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.right-section button {
+    padding: 10px 20px;
+    background-color: #003399;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.right-section button:hover {
+    background-color: #002266;
+}
+
+
+

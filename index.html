@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <!-- მეტა თეგები -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="კონტაქტის გვერდი დიზაინის მიხედვით">
+    <meta name="keywords" content="კონტაქტი, რუკა, მეილი, შეტყობინება">
+    <meta name="author" content="შენი სახელი">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- გვერდის სათაური -->
+    <title>კონტაქტი</title>
+
+    <!-- სტილის ფაილის ჩართვა -->
+    <link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+    <!-- ძირითადი კონტეინერი -->
+    <div class="main-container">
+        <!-- მარცხენა ნაწილი -->
+        <div class="left-section">
+            <h1>კონტაქტი</h1>
+            <p>
+               Lorem Ipsum საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.
+            </p>
+            <div class="map">
+                <img src="img/blob.jpeg" alt="რუკა">
+            </div>
+            <div class="contact-info">
+                <div class="phone">
+                    <span>&#x1F4DE</span>
+                    <span>555 12 40 08</span>
+                </div>
+                <div class="email">
+                    <span>📧</span>
+                    <span>shavidzenini141@gmail.com</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- მარჯვენა ნაწილი -->
+        <div class="right-section">
+            <form action="#" method="POST">
+                <label for="name">სახელი, გვარი:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">მეილი:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">შეტყობინება:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">გაგზავნა</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
